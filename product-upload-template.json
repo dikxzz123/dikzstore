@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "Web Jual Beli Akun Game",
+    "price": 590000,
+    "category": "ecommerce",
+    "image": "assets/images/product1.png",
+       "description": "Website ini dirancang khusus untuk jual beli akun game populer seperti Mobile Legends, Free Fire, PUBG Mobile, Honor of Kings, dan banyak lainnya . Dengan antarmuka yang ramah pengguna dan sistem transaksi otomatis, platform ini memastikan pengalaman jual beli yang aman, cepat, dan nyaman bagi penjual maupun pembeli.",
+    "features": [
+   "admin Dashboard",
+      "Konfigurasi Umum",
+      "Konfigurasi Topupku",
+      "Konfigurasi Pembelian",
+      "Konfigurasi Wisender",
+      "Konfigurasi SMTP",
+      "Admin Kelola (Tambah, Edit, Hapus)",
+      "Kelola Kategori (Tambah, Edit, Hapus)",
+      "Kelola Akun (Tambah, Edit, Hapus",
+      "Kelola Pembelian (Edit, Hapus)",
+      "Kelola Metode (Tambah, Edit, Hapus)",
+      "Notifikasi (Notifikasi Whatsapp, Notifikasi Email)",
+      "Kelola Banner (Tambah, Hapus)",
+      "Kelola Sosmed (Tambah, Edit, Hapus)",
+      "Kelola Syarat dan Ketentuan"
+      ],
+    "technologies": [
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Web Jual Beli dengan Saldo Website",
+    "price": 1800000,
+    "category": "ecommerce",
+    "image": "assets/images/product2.png",
+    "description": "Platform e-commerce dengan sistem saldo internal yang memudahkan transaksi antar pengguna. Dilengkapi dengan sistem top-up saldo, penarikan dana, dan riwayat transaksi yang detail untuk pengalaman belanja yang lebih nyaman.",
+    "features": [
+      "Sistem saldo internal",
+      "Top-up multi-channel",
+      "Penarikan dana otomatis",
+      "Riwayat transaksi detail",
+      "Notifikasi real-time",
+      "Keamanan transaksi berlapis"
+    ],
+    "technologies": [
+      "React.js",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redux"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Marketplace dengan Integrasi Payment Gateway",
+    "price": 2200000,
+    "category": "ecommerce",
+    "image": "assets/images/product3.png",
+    "description": "Solusi marketplace lengkap dengan integrasi berbagai payment gateway populer di Indonesia. Mendukung pembayaran melalui transfer bank, e-wallet, QRIS, dan cicilan, serta dilengkapi dengan sistem split payment untuk multi-vendor.",
+    "features": [
+      "Multi payment gateway",
+      "Split payment untuk vendor",
+      "Pembayaran cicilan",
+      "Integrasi e-wallet",
+      "Dashboard keuangan",
+      "Laporan transaksi otomatis"
+    ],
+    "technologies": [
+      "Laravel",
+      "Vue.js",
+      "MySQL",
+      "Redis",
+      "Docker"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Landing Page Personal Premium",
+    "price": 850000,
+    "category": "landing",
+    "image": "assets/images/product4.png",
+    "description": "Template landing page personal premium untuk portofolio, CV online, atau personal branding. Desain modern, responsif, dan mudah dikustomisasi dengan animasi smooth scroll dan efek parallax yang menarik.",
+    "features": [
+      "Desain responsif",
+      "Animasi smooth scroll",
+      "Efek parallax",
+      "Galeri portofolio",
+      "Form kontak terintegrasi",
+      "SEO friendly"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3/SASS",
+      "JavaScript",
+      "GSAP Animation",
+      "Bootstrap 5"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Landing Page Personal Premium",
+    "price": 1000000,
+    "category": "landing",
+    "image": "assets/images/product5.png",
+    "description": "Template landing page personal premium untuk portofolio, CV online, atau personal branding. Desain modern, responsif, dan mudah dikustomisasi dengan animasi smooth scroll dan efek parallax yang menarik.",
+    "features": [
+      "Desain responsif",
+      "Animasi smooth scroll",
+      "Efek parallax",
+      "Galeri portofolio",
+      "Form kontak terintegrasi",
+      "SEO friendly"
+    ],
+    "technologies":[
+      
+    ]
+  }
+]

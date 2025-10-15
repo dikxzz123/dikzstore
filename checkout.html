@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - DIKZSTORE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>DIKZSTORE</span></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="products.html">Produk</a></li>
+                    <li><a href="index.html#about">Tentang Kami</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="checkout">
+            <div class="container">
+                <h1>Checkout</h1>
+                <div class="checkout-container">
+                    <div class="checkout-form">
+                        <h2>Detail Pembelian</h2>
+                        <form id="checkout-form">
+                            <div class="form-group">
+                                <label for="fullname">Nama Lengkap</label>
+                                <input type="text" id="fullname" name="fullname" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-name">Produk</label>
+                                <input type="text" id="product-name" name="product-name" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-price">Harga</label>
+                                <input type="text" id="product-price" name="product-price" readonly>
+                            </div>
+                            <div class="form-group">
+                            </div>
+                            <div class="discount-info" id="discount-info">
+                                <!-- Discount  -->
+                            </div>
+                            <div class="form-group total-price">
+                                <label for="total-price">Total Harga</label>
+                                <input type="text" id="total-price" name="total-price" readonly>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" id="whatsapp-checkout" class="btn btn-primary">
+                                    <i class="fab fa-"></i> Checkout Sekarang
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="checkout-summary">
+                        <h2>Ringkasan Pesanan</h2>
+                        <div class="product-summary" id="product-summary">
+                            
+                        </div>
+                        <div class="checkout-notes">
+                            <h3>Catatan:</h3>
+                            <ul>
+                                <li>Setelah menghubungi owner, Anda akan mendapatkan instruksi pembayaran.</li>
+                                <li>Source code akan dikirimkan setelah pembayaran dikonfirmasi.</li>
+                                <li>Dukungan teknis tersedia selama 30 hari setelah pembelian.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html"><span>DIKZSTORE</span></a>
+                    <p>DIKZSTORE. Menyediakan Source Code Premium & Siap Pakai</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigasi</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="products.html">Produk</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Hubungi Kami</h3>
+                    <p><i class="fas fa-envelope"></i>mail.dikxzzstore@gmail.com</p>
+                    <div class="social-media">
+                        <a href="https://wa.me/6285692563950"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DIKZSTORE. All rights reserved.</p>
+                <p class="promo-text">Dibuat dengan <i class="fas fa-heart"></i> oleh <a href="https://www.dikxzzstore.my.id" target="_blank">dikxzzstore.my.id</a> - Solusi Digital Terbaik untuk Bisnis Anda</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/checkout.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

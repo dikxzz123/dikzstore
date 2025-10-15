@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - DIKZSTORE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>DIKZSTORE</span></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="products.html" class="active">Produk</a></li>
+                    <li><a href="index.html#about">Tentang Kami</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-header">
+            <div class="container">
+                <h1>Katalog Produk</h1>
+                <p>Pilih source code premium sesuai kebutuhan Anda</p>
+            </div>
+        </section>
+
+        <section class="product-filters">
+            <div class="container">
+                <div class="filter-container">
+                    <div class="search-box">
+                        <input type="text" id="search-products" placeholder="Cari produk...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="category-filter">
+                        <select id="category-select">
+                            <option value="all">Semua Kategori</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="cms">CMS</option>
+                            <option value="dashboard">Dashboard</option>
+                            <option value="landing">Landing Page</option>
+                        </select>
+                    </div>
+                    <div class="price-filter">
+                        <select id="price-select">
+                            <option value="all">Semua Harga</option>
+                            <option value="low">< Rp 500.000</option>
+                            <option value="medium">Rp 500.000 - Rp 1.000.000</option>
+                            <option value="high">> Rp 1.000.000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <div class="container">
+                <div class="product-cards" id="product-container">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html"><span>DIKZSTORE</span></a>
+                    <p>DIKZSTORE. Menyediakan Source Code Premium & Siap Pakai</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigasi</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="products.html">Produk</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Hubungi Kami</h3>
+                    <p><i class="fas fa-envelope"></i>mail.dikxzzstore@gmail.com</p>
+                    <div class="social-media">
+                        <a href="https://wa.me/6285692563950"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DIKZSTORE. All rights reserved.</p>
+                <p class="promo-text">Dibuat dengan <i class="fas fa-heart"></i> oleh <a href="https://www.dikxzzstore.my.id" target="_blank">dikxzzstore.my.id</a> - Solusi Digital Terbaik untuk Bisnis Anda</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
